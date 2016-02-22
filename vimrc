@@ -15,7 +15,6 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'walm/jshint.vim'
 Plugin 'xsbeats/vim-blade'
-Plugin 'tpope/vim-fireplace'
 Plugin 'digitaltoad/vim-jade'
 
 call vundle#end()            " required
