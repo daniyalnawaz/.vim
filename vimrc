@@ -15,6 +15,8 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'walm/jshint.vim'
 Plugin 'xsbeats/vim-blade'
+Plugin 'tpope/vim-fireplace'
+Plugin 'digitaltoad/vim-jade'
 
 call vundle#end()            " required
 
@@ -74,6 +76,7 @@ autocmd FileType css setlocal shiftwidth=2 tabstop=2
 autocmd FileType less setlocal shiftwidth=2 tabstop=2
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 autocmd FileType json setlocal shiftwidth=2 tabstop=2
+autocmd BufNewFile,BufRead *.jade set shiftwidth=2 | set tabstop=2
 autocmd BufNewFile,BufRead *.blade.php set shiftwidth=2 | set tabstop=2
 
 " Display tabs and trailing spaces visually
